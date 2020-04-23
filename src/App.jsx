@@ -329,7 +329,7 @@ ReactDOM.render(
     <NavbarSolidLogin
       className='is-link'
       title='Webledgers App'
-      sourceCode='https://github.com/play-grounds/react/blob/gh-pages/play/points.html/'
+      sourceCode='https://github.com/play-grounds/webledgers-playground'
     />
 
     <div className='section'>
