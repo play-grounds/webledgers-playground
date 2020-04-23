@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "cogo-toast": "./cogo-toast.js",
+    "react-bulma-components": "./react-bulma-components.js",
+    "react-circle": "./react-circle.js",
+    "swr": "./swr.js"
+  }
+}
