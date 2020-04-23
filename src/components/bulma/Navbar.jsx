@@ -1,5 +1,4 @@
-import React from '/web_modules/react.js'
-import ReactDOM from '/web_modules/react-dom.js'
+import React from '../../../web_modules/react.js'
 export default NavbarSolidLogin
 
 function NavbarAbout ({ sourceCode, ...props }) {

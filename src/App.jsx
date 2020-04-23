@@ -1,7 +1,7 @@
-import React from '/web_modules/react.js'
-import ReactDOM from '/web_modules/react-dom.js'
-import NavbarSolidLogin from '/lib/components/bulma/Navbar.js'
-import cogoToast from '/web_modules/cogo-toast.js'
+import React from '../web_modules/react.js'
+import ReactDOM from '../web_modules/react-dom.js'
+import NavbarSolidLogin from '../lib/components/bulma/Navbar.js'
+import cogoToast from '../web_modules/cogo-toast.js'
 
 // main
 var UI = {}
@@ -178,7 +178,7 @@ function Points () {
       cycle.end = new Date().getTime()
       // console.log('cycle diff', cycle.end - cycle.start)
       cycle = { start: new Date().getTime() }
-      new Audio('audio/cheer.ogg').play()
+      new Audio('../audio/cheer.ogg').play()
     } else if (Math.floor(points / 30) !== Math.floor(lastPoints / 30)) {
       subcycle.end = new Date().getTime()
       let diff = subcycle.end - subcycle.start
@@ -194,7 +194,7 @@ function Points () {
       }
 
       subcycle = { start: new Date().getTime() }
-      new Audio('audio/heal.ogg').play()
+      new Audio('../audio/heal.ogg').play()
     }
     localStorage.setItem('localScore', points)
   }
