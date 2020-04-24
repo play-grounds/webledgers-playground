@@ -1,0 +1,1 @@
+[{"@id":"https://melvincarvalho.com/#me","https://w3id.org/cc#amount":[{"@value":"80","@type":"http://www.w3.org/2001/XMLSchema#integer"}],"urn:query:day":[{"@value":"260","@type":"http://www.w3.org/2001/XMLSchema#integer"}],"urn:query:hour":[{"@value":"80","@type":"http://www.w3.org/2001/XMLSchema#integer"}]}]
